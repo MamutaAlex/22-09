@@ -1,0 +1,126 @@
+shutdown -r now
+cd
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt update
+sudo apt install snapd snapd-xdg-open
+sudo snap install pycharm-community --classic
+sudo apt-get install python3-setuptools
+sudo apt-get install python3-pip
+sudo apt-get install python3-distutils
+sudo apt-get install python3-tk
+shutdown -r now
+pycharm-community
+cd
+sudo apt-get install python3-venv
+mkdir myenvir
+cd myenvir
+python3 -m venv myenv1
+python3 -m venv myenv2
+source myenv1/bin/activate
+deactevate
+deactivate
+source myenv2/bin/activate
+deactivate
+pip3 install ipython
+pip3 install jupyter notebook
+cd
+pip3 install jupyter notebook
+git --version
+sudo apt-get install git
+git config --list --show-origin
+git config --global user.name "shamota alexey"
+git config --global user.email 123@gmail.com
+git config --list --show-origin
+cd
+mkdir mygit
+cd mygit
+git init
+git status
+touch test.txt
+git status
+git add test.txt
+git status
+git commit -m "my first commit"
+git status
+cd
+mkdir gitlab/
+cd gitlab/
+git init
+nano myfile.py
+ls -l
+git status
+git add .
+git status
+git commit -m "first commit"
+git log
+nano myfile.py
+python3 myfile.py
+git status
+git add .
+git status
+git commit -m "second commit"
+git status
+git log
+nano myfile.py 
+git commit -am "second commit"
+git status
+nano myfile2.py
+nano myfile3.py
+git add .
+git status
+git commit -am "new files"
+nano myfile2.py 
+python3 myfile2.py 
+python3 myfile3.py 
+nano myfile2.py 
+python3 myfile2.py 
+git branch
+git status
+git commit -a "new branch"
+git commit -am "new branch"
+git checkout -b
+git checkout -b "aaeae"
+git status
+git log
+nano myaaeae.py
+python3 myaaeae.py 
+git commit -am "myaaeae"
+git add .
+git commit -am "myaaeae"
+git status
+git log
+git branch
+git merge master
+git merge aaeae
+git commit -am "sliyanie"
+git branch -d aaeae
+git branch -d master
+git branch 
+git status
+nano myfile.py 
+python3 myfile.py
+git commit -am "release 12.18"
+git log
+history 
+history --help
+history -w gitlab.txt
+git clone https://github.com/fa-python-network/0_git_basics test
+git add backup.sh
+nano backup.sh
+git add backup.sh
+nano backup.sh
+git add backup.sh
+git push
+git push https://github.com/fa-python-network/0_git_basics
+git commit -am "push"
+echo "prrrint("qq")" >> backup.sh
+git commit -am "oshibka"
+git log
+git reset --hard 1cbad62
+git log
+echo "print("QQ")" >> backup.sh
+git commit -am "new print"
+echo "print("1Q1Q1")" >> backup.sh
+git commit -am "new print1"
+history
+history -w gitlab2.txt
